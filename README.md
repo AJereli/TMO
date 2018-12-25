@@ -25,25 +25,25 @@ def nadaray(X, Y, h, K, dist=euclidean):
 
 
 
-Nadaray with gauss 0.3
-1.7035138268200636
-Nadaray with gauss 0.5
-2.5207086720141128
-Nadaray with gauss 0.7
-3.9312477100883125
-Nadaray with gauss 0.9
-5.7525997288336
----
-Nadaray with Kquad 0.3
-1.3374668090970618
-Nadaray with Kquad 0.5
-1.5397288887782348
-Nadaray with Kquad 0.7
-1.6545228257136637
-Nadaray with Kquad 0.9
-1.859198005528924
-
-# Loweless
+Nadaray with gauss 0.3 <br/>
+1.7035138268200636 <br/>
+Nadaray with gauss 0.5 <br/>
+2.5207086720141128 <br/>
+Nadaray with gauss 0.7 <br/>
+3.9312477100883125 <br/>
+Nadaray with gauss 0.9 <br/>
+5.7525997288336 <br/>
+--- <br/>
+Nadaray with Kquad 0.3 <br/>
+1.3374668090970618 <br/>
+Nadaray with Kquad 0.5 <br/>
+1.5397288887782348 <br/>
+Nadaray with Kquad 0.7 <br/>
+1.6545228257136637 <br/>
+Nadaray with Kquad 0.9 <br/>
+1.859198005528924 <br/>
+<br/><br/>
+# Loweless <br/>
 ![alt text](https://github.com/AJereli/TMO/blob/master/lt.png)
 
 ```python
@@ -66,15 +66,26 @@ def lowess(X, Y, MAX, h, K, dist=euclidean):
         delta = np.array(delta, dtype=float)
     return Yt
 ```
+<br/><br/>
 ![alt text](https://github.com/AJereli/TMO/blob/master/lowess.png)
 
-Lowess with Kquad 0.3
-1.033975993884266
-Lowess with Kquad 0.5
-1.033975993884266
-Lowess with Kquad 0.7
-1.033975993884266
-Lowess with Kquad 0.9
-1.033975993884266
+Lowess with Kquad 0.3 <br/>
+1.033975993884266 <br/>
+Lowess with Kquad 0.5 <br/>
+1.033975993884266 <br/>
+Lowess with Kquad 0.7 <br/>
+1.033975993884266 <br/>
+Lowess with Kquad 0.9 <br/>
+1.033975993884266 <br/>
 
+<br/>
+
+#Lowess с выбросом
+![alt text](https://github.com/AJereli/TMO/blob/master/v1.png)
+
+<br/>
+
+# метод Надарая-Ватсона c выбросом
+
+![alt text](https://github.com/AJereli/TMO/blob/master/v2.png)
 
