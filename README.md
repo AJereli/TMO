@@ -80,7 +80,8 @@ Lowess with Kquad 0.9 <br/>
 
 <br/>
 
-#Lowess с выбросом
+# Lowess с выбросом
+
 ![alt text](https://github.com/AJereli/TMO/blob/master/v1.png)
 
 <br/>
