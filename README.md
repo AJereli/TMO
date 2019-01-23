@@ -13,6 +13,9 @@
 
 Задачу обучения по прецедентам при Y = R принято называть задачей восстановления регрессии, а решающую функцию a — функцией регрессии.
 
+Алгоритм обучения (learning algorithm), синоним Метод обучения — в задачах обучения по прецедентам — алгоритм \mu, который принимает на входе обучающую выборку данных D, строит и выдаёт на выходе функцию f из заданной модели F, реализующую отображение из множества объектов X во множество ответов Y.
+
+Построенная функция f должна аппроксимировать (восстанавливать) зависимость ответов от объектов, в целом неизвестную, и заданную лишь в конечном числе точек — объектов обучающей выборки D=\bigl((x_1,y_1),\ldots,(x_m,y_m)\bigr)\in X^m.
 
 ### Постановка задачи
 Пусть задано пространство объектов ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/1.PNG) и множество возможных ответов ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/2.PNG). Существует неизвестная зависимость ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/3.PNG) значения которой известны только на объектах обучающией выборки ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/4.PNG),требуется построить алгоритм ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/5.PNG), аппроксимирующий неизвестную зависимость ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/6.PNG).
