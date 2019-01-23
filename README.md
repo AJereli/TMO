@@ -1,5 +1,19 @@
 # TMO
 
+## _Задача обучения по прецедентам_ *(основная задача ТМО)*:
+
+Задано множество объектов *X* и множество допустимых ответов *Y*.
+Существует целевая функция ![alt text](https://latex.codecogs.com/gif.latex?y^*:&space;X\rightarrow&space;Y), значения которой 
+![alt text](https://latex.codecogs.com/gif.latex?y_i&space;=&space;y^*(x_i)) известны только на конечном подмножестве объектов 
+![alt text](https://latex.codecogs.com/gif.latex?\left&space;\{&space;x_1,&space;...,&space;x_l&space;\right&space;\}&space;\subset&space;X). Пары "объект-ответ" ![alt-text](https://latex.codecogs.com/gif.latex?\left&space;(&space;x_i,&space;y_i&space;\right&space;)) называются прецедентами. Совокупность пар ![alt text](https://latex.codecogs.com/gif.latex?X^l&space;=&space;\left&space;(&space;x_i,&space;y_i&space;\right&space;),&space;i&space;=&space;1,&space;...,&space;l) называется обучающей выборкой. 
+
+Задача обучения по прецедентам заключается в том, чтобы по выборке ![alt text](https://latex.codecogs.com/gif.latex?X^l) восстановить зависимость ![alt text](https://latex.codecogs.com/gif.latex?y^*), т.е. построить решающую функцию 
+![alt text](https://latex.codecogs.com/gif.latex?a:&space;X&space;\rightarrow&space;Y), которая приближала бы целевую функцию 
+![alt text](https://latex.codecogs.com/gif.latex?y^*(x)), причём не только на объектах обучающей выборки, но и на всём множестве *X*.
+
+Задачу обучения по прецедентам при Y = R принято называть задачей восстановления регрессии, а решающую функцию a — функцией регрессии.
+
+
 ### Постановка задачи
 Пусть задано пространство объектов ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/1.PNG) и множество возможных ответов ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/2.PNG). Существует неизвестная зависимость ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/3.PNG) значения которой известны только на объектах обучающией выборки ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/4.PNG),требуется построить алгоритм ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/5.PNG), аппроксимирующий неизвестную зависимость ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/6.PNG).
 
